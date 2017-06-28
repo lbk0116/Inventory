@@ -58,7 +58,7 @@ openerp.asset_management=function(instance){
                 "领用设备":[5+n],
                 "实验室设备":[5+n],
                 //"我的设备":[1+n],
-                "待入库的设备":[3+n]
+                "待入库的设备":[1+n,3+n]
             };
             var timer=setInterval(function(){
                 if($("li.oe_sidebar_action").length>3){
