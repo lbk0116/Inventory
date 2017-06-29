@@ -41,7 +41,7 @@ openerp.asset_management=function(instance){
                         self.removeBtn(title);//删除按钮
                         self.menuId=targetSpan.parent("a").attr("data-menu");
                         self.search(title);//添加搜索按钮
-                        self.menuCounter();
+                        //self.menuCounter();
                     }
                 }
             },100);
