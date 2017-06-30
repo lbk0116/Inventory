@@ -22,7 +22,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                      </group>
 
                     <footer>
@@ -94,7 +105,18 @@
 
                     </group>
                     <group>
-                        <field name="SN" string = "设备" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                         <field name="store_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false">
                                     <field name="approver_id" string = "审批人" />
@@ -142,7 +164,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                     </group>
 
                     <footer>
@@ -181,7 +214,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                          <field name="get_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false">
                                     <field name="approver_id" string = "审批人" />
@@ -219,7 +263,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                          <field name="get_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false"  >
                                     <field name="approver_id" string = "审批人" />
@@ -273,7 +328,18 @@
                         </group>
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                     </group>
                     <footer>
                         <button name="subscribe" type="object"
@@ -352,7 +418,18 @@
                         </group>
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                          <field name="apply_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false" delete = "false">
                                     <field name="approver_id" string = "审批人" />
@@ -403,7 +480,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                       <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                     </group>
                     <footer>
                         <button name="subscribe" type="object"
@@ -437,7 +525,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                     </group>
 
                 </form>
@@ -467,7 +566,18 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}' />
+                        <field name="SN" string = "设备" >
+                            <tree string="设备"  edit="false" create="false">
+                                <field name="sn" string = "序列号"/>
+                                <field name="device_name" string = "设备名称"/>
+                                <field name="unit_type" string = "设备型号"/>
+                                <field name="firms" string = "设备厂商"/>
+                                <field name="equipment_source" string = "设备来源"/>
+                                <field name="equipment_status" string = "设备可用性"/>
+                                <field name="owner" string = "归属人"/>
+                                <field name="equipment_use" string = "设备用途"/>
+                            </tree>
+                        </field>
                     </group>
 
                 </form>
