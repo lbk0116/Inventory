@@ -361,7 +361,7 @@
         <menuitem id="device_menu" name="device_information" parent="main_asset_management_menu" sequence="1"/>
         <menuitem id="all_device_menu" name="all device" parent="device_menu" action="all_asset_info_action" groups="asset_management.group_ass_admin,asset_management.group_ass_director,asset_management.group_ass_admin_manager,base.group_system" sequence="1"/>
         <menuitem id="stored_device_menu" name="stored device" parent="device_menu" action="stored_asset_info_action" sequence="2"/>
-        <menuitem id="my_device_menu" name="my device" parent="device_menu" action="my_asset_info_action" />
+        <!--<menuitem id="my_device_menu" name="my device" parent="device_menu" action="my_asset_info_action" />-->
         <menuitem id="lended_device_menu" name="lended device" parent="device_menu" action="lended_asset_info_action" />
         <menuitem id="got_device_menu" name="got device" parent="device_menu" action="got_asset_info_action" />
         <menuitem id="it_apply_device_menu" name="IT applay device" parent="device_menu" action="IT_apply_asset_info_action" groups="base.group_system"/>
