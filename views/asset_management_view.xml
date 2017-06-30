@@ -22,7 +22,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                      </group>
 
                     <footer>
@@ -94,14 +94,14 @@
 
                     </group>
                     <group>
-                        <field name="SN" string = "设备" />
+                        <field name="SN" string = "设备" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                         <field name="store_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false">
                                     <field name="approver_id" string = "审批人" />
                                     <field name="result" string="审批结果" />
                                     <field name = "date" string = "审批时间" />
                                 </tree>
-                         </field>
+                        </field>
                     </group>
                 </form>
             </field>
@@ -142,7 +142,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                     </group>
 
                     <footer>
@@ -181,7 +181,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                          <field name="get_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false">
                                     <field name="approver_id" string = "审批人" />
@@ -219,7 +219,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                          <field name="get_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false"  >
                                     <field name="approver_id" string = "审批人" />
@@ -273,7 +273,7 @@
                         </group>
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                     </group>
                     <footer>
                         <button name="subscribe" type="object"
@@ -352,7 +352,7 @@
                         </group>
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                          <field name="apply_exam_ids" string="审批记录">
                              <tree string="审批记录" edit="false" create="false" delete = "false">
                                     <field name="approver_id" string = "审批人" />
@@ -403,7 +403,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                     </group>
                     <footer>
                         <button name="subscribe" type="object"
@@ -437,7 +437,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}'/>
                     </group>
 
                 </form>
@@ -467,7 +467,7 @@
 
                     </group>
                      <group>
-                        <field name="SN" string = "设备" mode="tree"/>
+                        <field name="SN" string = "设备" mode="tree" options='{"no_open":True,"no_create":1,"no_create_edit":1}' />
                     </group>
 
                 </form>
@@ -503,14 +503,14 @@
                     view_id="asset_storage_create_form_view"
                     target="new"
                     key2="client_action_multi"/>
-        <act_window id="launch_session_it_apply_wizard"
-                    name="IT 环境申请"
-                    src_model="asset_management.equipment_info"
-                    res_model="asset_management.equipment_it_apply"
-                    view_mode="form"
-                    view_id="asset_apply_create_form_view"
-                    target="new"
-                    key2="client_action_multi"/>
+        <!--<act_window id="launch_session_it_apply_wizard"-->
+                    <!--name="IT 环境申请"-->
+                    <!--src_model="asset_management.equipment_info"-->
+                    <!--res_model="asset_management.equipment_it_apply"-->
+                    <!--view_mode="form"-->
+                    <!--view_id="asset_apply_create_form_view"-->
+                    <!--target="new"-->
+                    <!--key2="client_action_multi"/>-->
 
         <act_window id="launch_session_back_to_store_wizard"
                     name="归还"

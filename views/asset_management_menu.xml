@@ -364,7 +364,7 @@
         <menuitem id="my_device_menu" name="my device" parent="device_menu" action="my_asset_info_action" />
         <menuitem id="lended_device_menu" name="lended device" parent="device_menu" action="lended_asset_info_action" />
         <menuitem id="got_device_menu" name="got device" parent="device_menu" action="got_asset_info_action" />
-        <menuitem id="it_apply_device_menu" name="IT applay device" parent="device_menu" action="IT_apply_asset_info_action" />
+        <menuitem id="it_apply_device_menu" name="IT applay device" parent="device_menu" action="IT_apply_asset_info_action" groups="base.group_system"/>
         <menuitem id="examing_device_menu" name="examing device" parent="device_menu" action="examing_asset_info_action" />
 
         <menuitem id="the_lending_menu" name="lending Menu"  parent="main_asset_management_menu"/>
@@ -380,7 +380,7 @@
         <menuitem id="processed_storing_menu" name="processed storing Menu" parent="all_storing_menu" action="processed_asset_storing_action" />
 
 
-        <menuitem id="all_applying_menu" name="applying Menu"  parent="main_asset_management_menu"/>
+        <menuitem id="all_applying_menu" name="applying Menu"  parent="main_asset_management_menu" groups="base.group_system"/>
         <menuitem id="all_pending_applying_menu" name="pending apply Menu" parent="all_applying_menu" action="asset_pending_apply_action" />
         <menuitem id="all_processed_applying_menu" name="processed apply Menu" parent="all_applying_menu" action="asset_processed_apply_action" />
 
@@ -391,7 +391,7 @@
         <menuitem id="all_use_record" name="设备使用记录" parent="main_asset_management_menu" groups="asset_management.group_ass_admin,asset_management.group_ass_director,asset_management.group_ass_admin_manager,base.group_system"/>
         <menuitem id="use_record" name="设备使用记录" parent="all_use_record" action="use_record_action"/>
 
-        <menuitem id="rma" name="RMA" parent="main_asset_management_menu" />
+        <menuitem id="rma" name="RMA" parent="main_asset_management_menu" groups="base.group_system"/>
         <menuitem id="rma_record" name="待处理RMA" parent="rma" action="rma_action" groups="asset_management.group_ass_admin,base.group_system"/>
         <menuitem id="pended_rma_record" name="RMA" parent="rma" action="pended_rma_action"/>
 

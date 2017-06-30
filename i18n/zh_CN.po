@@ -68,47 +68,47 @@ msgstr "待入库设备"
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.the_lending_menu
 msgid "lending Menu"
-msgstr "借用审批"
+msgstr "借用请求"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_pending_lending_menu
 msgid "pending lend Menu"
-msgstr "待审批"
+msgstr "待处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_processed_lending_menu
 msgid "processed lend Menu"
-msgstr "已审批"
+msgstr "已处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_getting_menu
 msgid "getting Menu"
-msgstr "领用审批"
+msgstr "领用请求"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.pending_getting_menu
 msgid "pending get Menu"
-msgstr "待审批"
+msgstr "待处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.processed_getting_menu
 msgid "processed get Menu"
-msgstr "已审批"
+msgstr "已处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_storing_menu
 msgid "store Menu"
-msgstr "入库审批"
+msgstr "入库请求"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.pending_storing_menu
 msgid "storing Menu"
-msgstr "入库待审批"
+msgstr "待处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.processed_storing_menu
 msgid "processed storing Menu"
-msgstr "入库已审批"
+msgstr "已处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_applying_menu
@@ -118,12 +118,12 @@ msgstr "IT环境审批"
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_pending_applying_menu
 msgid "pending apply Menu"
-msgstr "待审批"
+msgstr "待处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_processed_applying_menu
 msgid "processed apply Menu"
-msgstr "已审批"
+msgstr "已处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.all_back_menu
@@ -133,9 +133,9 @@ msgstr "设备归还"
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.pending_backing_menu
 msgid "backing Menu"
-msgstr "待审批"
+msgstr "待处理"
 
 #. module: asset_management
 #: model:ir.ui.menu,name:asset_management.processed_back_menu
 msgid "processed backing Menu"
-msgstr "已审批"
+msgstr "已处理"
