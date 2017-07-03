@@ -93,6 +93,7 @@
                     <field name="owner" string = "归属人"/>
                     <field name="equipment_use" string = "设备用途"/>
                     <field name="state" string="状态"/>
+                    <field name="device_type" string="设备类型"/>
                     <!--<field name="write_date" string="时间"/>-->
                 </tree>
             </field>
@@ -111,6 +112,7 @@
                     <field name="owner" string = "归属人"/>
                     <field name="equipment_use" string = "设备用途"/>
                     <field name="state" string="状态"/>
+                    <field name="device_type" string="设备类型"/>
                     <!--<field name="write_date" string="时间"/>-->
                     <field name="user_id" string="创建人"/>
                 </tree>
