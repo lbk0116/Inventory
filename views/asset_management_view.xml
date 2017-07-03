@@ -298,7 +298,7 @@
                         <field name="get_date" string = "领用日期"/>
                         <field name="get_purpose" string = "领用目的"/>
                         <field name="state" string = "状态"/>
-                         <field name="create_date" string = "领用时间"/>
+
                 </tree>
             </field>
         </record>
