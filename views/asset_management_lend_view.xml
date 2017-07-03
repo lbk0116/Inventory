@@ -175,8 +175,8 @@
                     <field name="user_id" string = "申请人" readonly="True"/>
                     <field name="approver_id" string = "审批人" readonly="True"/>
                     <field name="lend_date" string = "借用日期"/>
-                    <field name="promise_date" string = "承诺归还日期"/>
-                    <field name="actual_date" string = "实际归还日期"/>
+                    <field name="promise_date" string = "归还日期"/>
+                    <!--<field name="actual_date" string = "实际归还日期"/>-->
                     <field name="lend_purpose" string = "借用目的"/>
                     <field name="SN" string = "设备" >
                         <tree string="设备"  edit="false" create="false">
@@ -222,8 +222,8 @@
                     <field name="user_id" string = "申请人" readonly="True"/>
                     <field name="approver_id" string = "审批人" readonly="True"/>
                     <field name="lend_date" string = "借用日期"/>
-                    <field name="promise_date" string = "承诺归还日期"/>
-                    <field name="actual_date" string = "实际归还日期"/>
+                    <field name="promise_date" string = "归还日期"/>
+                    <!--<field name="actual_date" string = "实际归还日期"/>-->
                     <field name="lend_purpose" string = "借用目的"/>
                     </group>
                     <group>
@@ -266,8 +266,8 @@
                     <field name="user_id" string = "申请人"/>
                     <field name="approver_id" string = "审批人"/>
                     <field name="lend_date" string = "借用日期"/>
-                    <field name="promise_date" string = "承诺归还日期"/>
-                     <field name="actual_date" string = "实际归还日期"/>
+                    <field name="promise_date" string = "归还日期"/>
+                     <!--<field name="actual_date" string = "实际归还日期"/>-->
                     <field name="lend_purpose" string = "借用目的"/>
                     </group>
                     <group>
@@ -306,7 +306,7 @@
                     <field name="state" string = "状态"/>
                     <field name="lend_purpose" string = "借用目的"/>
                     <field name="lend_date" string = "借用日期"/>
-                    <field name="promise_date" string = "承诺归还日期"/>
+                    <field name="promise_date" string ="归还日期"/>
                 </tree>
             </field>
         </record>
